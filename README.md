@@ -29,7 +29,7 @@ Where checkpoint_path_base is a string which is used when saving model checkpoin
 To resume training
 
 `
-python main.py train checkpoint_path_base min_examples_per_class load_path
+python main.py resume-training checkpoint_path_base min_examples_per_class load_path
 `
 
 Where load_path is the path to the checkpoint being resumed from.
